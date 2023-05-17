@@ -18,7 +18,7 @@ public class TrainTicketMachineApplication {
 
 	public static void main(String[] args) {
 		header();
-		Scanner scanner = new Scanner(System.in);
+		final Scanner scanner = new Scanner(System.in);
 
 		StringBuilder stationName = new StringBuilder();
 		StringBuilder currentChar = new StringBuilder();
