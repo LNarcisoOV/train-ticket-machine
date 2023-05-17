@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TrainTicketMachineApplication {
 
-	private static List<String> STATION_LIST = Arrays.asList("Abrantes", "Ademia", "Aguieira", "Baixa da Banheira",
+	private static final List<String> STATION_LIST = Arrays.asList("Abrantes", "Ademia", "Aguieira", "Baixa da Banheira",
 			"Barcelos", "Barqueiros", "Cacia", "Cais do Sodre", "Caldas da rainha", "Fontela", "Francelos", "Fratel",
 			"Gata", "Giesteira", "Granja", "Lamarosa", "Lapa", "Lapa do Lobo", "Macinhata", "Madalena", "Mafra",
 			"Oeiras", "Oia", "Oleiros", "Paramos", "Parede", "Paredes", "Santa Iria", "Santa Margarida",
